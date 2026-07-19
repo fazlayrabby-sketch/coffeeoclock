@@ -1,0 +1,1126 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Add 'js' class as early as possible so reveal styles only hide-before-reveal when JS is on -->
+  <script>document.documentElement.classList.remove('no-js'); document.documentElement.classList.add('js');</script>
+  <title>Coffee O'Clock — Single-Origin Slow Bar in Sylhet | Open Till 11:00 AM </title>
+  <meta name="description"
+    content="A low-light slow bar in Sylhet pouring single-origin coffee by hand. Espresso, reserve pour-overs, and pastry — open till 11:00am.">
+  <meta name="keywords" content="coffee, single origin, espresso, pour over, slow bar, specialty coffee, café">
+  <meta name="author" content="Coffee O'Clock">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://coffeeoclock.example/">
+  <meta name="theme-color" content="#0B0907">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Coffee O'Clock — Single-Origin Slow Bar in Sylhet">
+  <meta property="og:description"
+    content="A low-light slow bar in Sylhet pouring single-origin coffee by hand. Espresso, reserve pour-overs, and pastry — open till midnight.">
+  <meta property="og:site_name" content="Coffee O'Clock">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://coffeeoclock.example/">
+  <!-- OWNER: supply a same-origin social share image at this path (1200x630). No remote dependency embedded. -->
+  <meta property="og:image" content="https://coffeeoclock.example/social-card.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coffee O'Clock — Single-Origin Slow Bar in Sylhet">
+  <meta name="twitter:description"
+    content="A low-light slow bar in Sylhet pouring single-origin coffee by hand. Open till midnight.">
+  <!-- OWNER: same image path as og:image -->
+  <meta name="twitter:image" content="https://coffeeoclock.example/social-card.jpg">
+
+  <!-- Fonts: preconnect required, single combined stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Inter:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet" href="styles.css">
+  <!-- JSON-LD structured data: CafeOrCoffeeShop. Hours mirror the visible table exactly. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Coffee O'Clock",
+    "image": "https://coffeeoclock.example/social-card.jpg",
+    "url": "https://coffeeoclock.example/",
+    "telephone": "01759796669",
+    "priceRange": "$$",
+    "servesCuisine": "Coffee",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": " 40-Tantipara, Zindabazar, Sylhet",
+      "addressLocality": "Sylhet",
+      "addressRegion": "Zindabazar",
+      "postalCode": "3100",
+      "addressCountry": "Bangladesh"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.5202,
+      "longitude": -122.6742
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "07:00", "closes": "24:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "07:00", "closes": "01:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "01:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "08:00", "closes": "22:00" }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "218"
+    },
+    "hasMenu": {
+      "@type": "Menu",
+      "hasMenuSection": [
+        {
+          "@type": "MenuSection",
+          "name": "Espresso",
+          "hasMenuItem": [
+            { "@type": "MenuItem", "name": "Espresso", "offers": { "@type": "Offer", "price": "3.50", "priceCurrency": "USD" } },
+            { "@type": "MenuItem", "name": "Cortado", "offers": { "@type": "Offer", "price": "4.00", "priceCurrency": "USD" } },
+            { "@type": "MenuItem", "name": "Cappuccino", "offers": { "@type": "Offer", "price": "4.25", "priceCurrency": "USD" } },
+            { "@type": "MenuItem", "name": "Amber Flat White", "offers": { "@type": "Offer", "price": "5.25", "priceCurrency": "USD" } }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Brew Bar",
+          "hasMenuItem": [
+            { "@type": "MenuItem", "name": "Batch Brew", "offers": { "@type": "Offer", "price": "3.75", "priceCurrency": "USD" } },
+            { "@type": "MenuItem", "name": "Reserve Pour-Over", "offers": { "@type": "Offer", "price": "7.00", "priceCurrency": "USD" } },
+            { "@type": "MenuItem", "name": "Cold Brew, 24-hour", "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "USD" } },
+            { "@type": "MenuItem", "name": "Nitro Cold Brew", "offers": { "@type": "Offer", "price": "5.75", "priceCurrency": "USD" } }
+          ]
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Pastry",
+          "hasMenuItem": [
+            { "@type": "MenuItem", "name": "Cardamom Bun", "offers": { "@type": "Offer", "price": "4.50", "priceCurrency": "USD" } },
+            { "@type": "MenuItem", "name": "Dark Chocolate Rye Cookie", "offers": { "@type": "Offer", "price": "3.50", "priceCurrency": "USD" } },
+            { "@type": "MenuItem", "name": "Almond Croissant", "offers": { "@type": "Offer", "price": "4.75", "priceCurrency": "USD" } },
+            { "@type": "MenuItem", "name": "Burnt Basque Cheesecake", "offers": { "@type": "Offer", "price": "6.00", "priceCurrency": "USD" } }
+          ]
+        }
+      ]
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Skip link: first focusable element -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================== NAV ============================== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__links nav__links--left">
+        <li><a class="nav__link" href="#about" data-spy="about">About</a></li>
+        <li><a class="nav__link" href="#drinks" data-spy="drinks">Signature Dish</a></li>
+        <li><a class="nav__link" href="#menu" data-spy="menu">Menu</a></li>
+      </ul>
+
+      <a class="wordmark" href="#hero" aria-label="Coffee O'Clock — home">
+        COFFEE O<span class="wordmark__dot" aria-hidden="true"></span>CLOCK
+      </a>
+
+      <ul class="nav__links nav__links--right">
+        <li><a class="nav__link" href="#gallery" data-spy="gallery">Gallery</a></li>
+        <li><a class="nav__link" href="#location" data-spy="location">Visit</a></li>
+        <li><a class="btn btn--ghost nav__cta" href="#contact">Reserve a table</a></li>
+      </ul>
+
+      <!-- Mobile hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Main menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="hamburger__bar" aria-hidden="true"></span>
+        <span class="hamburger__bar" aria-hidden="true"></span>
+        <span class="hamburger__bar" aria-hidden="true"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile menu overlay -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Main menu" hidden>
+    <nav class="mobile-menu__nav" aria-label="Mobile">
+      <a class="mobile-menu__link" href="#about">About</a>
+      <a class="mobile-menu__link" href="#drinks">Signature dishes</a>
+      <a class="mobile-menu__link" href="#menu">Menu</a>
+      <a class="mobile-menu__link" href="#gallery">Gallery</a>
+      <a class="mobile-menu__link" href="#location">Visit</a>
+      <a class="btn btn--ghost mobile-menu__cta" href="#contact">Reserve a table</a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <!-- OWNER: drop a full-bleed low-key photo of a backlit espresso pour as a fixed bg layer
+           BEHIND .hero__grain (e.g. add a .hero__photo div with background-image); keep the grain on top -->
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__floor"></div>
+        <div class="hero__bloom" data-parallax="0.18"></div>
+        <div class="hero__steam" data-parallax="0.42"></div>
+        <div class="hero__grain"></div>
+      </div>
+
+      <div class="hero__inner" data-parallax="1">
+        <p class="eyebrow reveal">EST. 2024 • SYLHET</p>
+        <h1 class="hero__title" id="hero-title">
+
+          <span class="reveal" style="--i:1">
+            <span>Coffee O'Clock</span>
+            <span>Where Every Cup</span>
+            <span>Tells a Story</span>
+
+        </h1>
+        <p class="hero__lead lead reveal" style="--i:3">
+          Freshly brewed coffee, handcrafted drinks, delicious meals,
+          and cozy moments in the heart of Sylhet.
+        </p>
+        <div class="hero__actions reveal" style="--i:5">
+          <a class="btn btn--fill" href="#menu">Explore the menu</a>
+          <a class="btn btn--underline" href="#location">Our Location</a>
+        </div>
+        <div class="hero__cue reveal" style="--i:6">
+          <span class="status-pill"><span class="status-pill__dot" aria-hidden="true"></span>Open Daily • 01:00 PM –
+            11:00 PM </span>
+          <span class="status-pill"><span class="status-pill__dot" aria-hidden="true"></span>Only Friday • 03:00 PM –
+            11:00 PM </span>
+          <span class="scroll-cue"><span class="scroll-cue__line" aria-hidden="true"></span>Scroll</span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================== ABOUT ============================== -->
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="about__grid">
+        <div class="about__text">
+          <p class="eyebrow reveal">OUR STORY</p>
+          <h2 class="about__title h2 reveal" id="about-title">
+            Brewing More Than <em class="accent">Coffee</em>
+          </h2>
+          <div class="about__divider reveal"></div>
+          <p class="body reveal">
+            At Coffee O'Clock, we believe every great conversation begins with a great cup of coffee. Located in the
+            heart of Sylhet, we've created a warm and welcoming space where friends, families, students, and
+            professionals can relax and enjoy handcrafted beverages.
+          </p>
+          <p class="body reveal">
+            From freshly brewed specialty coffee and refreshing drinks to delicious meals and desserts, every item is
+            prepared with care. Whether you're here to work, catch up with friends, or simply unwind, Coffee O'Clock is
+            designed to make every visit memorable.
+          </p>
+          <ul class="about__stats reveal">
+
+            <li>
+              <span class="about__stat-num">2024</span>
+              <span class="about__stat-label">Established</span>
+            </li>
+
+            <li>
+              <span class="about__stat-num">Fresh</span>
+              <span class="about__stat-label">Coffee Daily</span>
+            </li>
+
+            <li>
+              <span class="about__stat-num">Sylhet</span>
+              <span class="about__stat-label">Bangladesh</span>
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- OWNER: replace .about__plate gradient stack with a real interior/barista photo; keep the gold hairline frame -->
+        <figure class="about__plate reveal" role="img"
+          aria-label="Latte art swirling in a cup beneath the low bar light, steam catching a rim of gold.">
+          <img src="images/interior .jpeg" alt="Coffee O'Clock Interior">
+          <div class="about__plate-rim" aria-hidden="true"></div>
+          <div class="about__plate-grain" aria-hidden="true"></div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============================== SIGNATURE PLATTERS ============================== -->
+
+    <section class="drinks section" id="drinks" aria-labelledby="drinks-title">
+
+      <header class="section-head reveal">
+
+        <p class="eyebrow">OUR SPECIALITIES</p>
+
+        <h2 class="h2" id="drinks-title">
+          Signature Platters
+        </h2>
+
+        <p class="section-subtitle">
+          Carefully crafted. Perfectly served.
+        </p>
+
+      </header>
+
+      <div class="platter-grid">
+
+        <!-- Honey Garlic Chicken -->
+
+        <article class="platter-card reveal">
+
+          <div class="platter-image">
+            <img src="images/honey-garlic.jpeg" alt="Honey Garlic Chicken">
+          </div>
+
+          <div class="platter-line"></div>
+
+          <h3>Honey Garlic Chicken</h3>
+
+          <p>
+            Honey-glazed chicken with a perfect balance of sweet and savoury flavours, served with your choice of two
+            delicious sides.
+          </p>
+
+          <span class="price">৳380 BDT</span>
+
+        </article>
+
+        <!-- BBQ Chicken -->
+
+        <article class="platter-card reveal">
+
+          <div class="platter-image">
+            <img src="images\bbq.jpeg" alt="BBQ Chicken">
+          </div>
+
+          <div class="platter-line"></div>
+
+          <h3>BBQ Chicken</h3>
+
+          <p>
+            Juicy grilled chicken coated in our signature BBQ sauce, paired with two freshly prepared side dishes.
+          </p>
+
+          <span class="price">৳380 BDT</span>
+
+        </article>
+
+        <!-- Peri Peri Chicken -->
+
+        <article class="platter-card reveal">
+
+          <div class="platter-image">
+            <img src="images\peri-peri.jpeg" alt="Crispy Chicken Platter">
+          </div>
+
+          <div class="platter-line"></div>
+
+          <h3>Peri Peri Chicken</h3>
+
+          <p>
+            Flanme Grilled chicken marinated in spicy peri-peri sauce, delivering a smoky and zesty kick
+          </p>
+
+          <span class="price">৳380 BDT</span>
+
+        </article>
+
+      </div>
+
+      <div class="platter-extra reveal">
+
+        <h3>Served With</h3>
+
+        <p>Choose Any 2 Sides</p>
+
+        <ul>
+
+          <li>✔ Fried Rice</li>
+
+          <li>✔ French Fries</li>
+
+          <li>✔ Sautéed Vegetables</li>
+
+          <li>✔ Mashed Potatoes</li>
+
+        </ul>
+
+      </div>
+
+    </section>
+
+
+
+
+    <!-- ============================== MENU ============================== -->
+    <section class="menu section" id="menu" aria-labelledby="menu-title">
+      <div class="menu__panel">
+        <header class="section-head">
+          <p class="eyebrow reveal">OUR MENU</p>
+          <h2 class="h2 reveal" id="menu-title"> Crafted Fresh Every Day</h2>
+        </header>
+
+        <div class="menu__groups">
+          <div class="menu__group reveal">
+
+            <h3 class="menu__group-label eyebrow">
+              Coffee
+            </h3>
+
+            <ul class="menu__list">
+
+              <li class="menu__row">
+                <span class="menu__item">Espresso</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳120/180</span>
+              </li>
+
+              <li class="menu__row">
+                <span class="menu__item">Americano</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳150</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Hot macchiato</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳160</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Hot Chocolate</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳170</span>
+              </li>
+
+              <li class="menu__row">
+                <span class="menu__item">Cappuccino</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳180</span>
+              </li>
+
+              <li class="menu__row">
+                <span class="menu__item">Latte</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳180</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Hot Mocha</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳200</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Flat White</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳200</span>
+              </li>
+            </ul>
+
+          </div>
+          <div class="menu__group reveal" style="--i:1">
+
+            <h3 class="menu__group-label eyebrow">
+              Main Course
+            </h3>
+
+            <ul class="menu__list">
+
+              <li class="menu__row">
+                <span class="menu__item">Hot Chilly Pasta</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳220</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Chicken Mushroom Pasta</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳250</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Oven Baked Pasta</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳290</span>
+              </li>
+
+              <li class="menu__row">
+                <span class="menu__item">Steam Chicken Momo-6pcs</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳200</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Chicken cheese Momo-6pcs</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳250</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Grilled Chciken Sandwich</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳240</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Club Sandwich</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳250</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Sub Sandwich</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳250</span>
+              </li>
+
+              <li class="menu__row">
+                <span class="menu__item">BBQ Chicken Burger</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳230</span>
+              </li>
+
+              <li class="menu__row">
+                <span class="menu__item">Grilled Chicken Burger</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳260</span>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="menu__group reveal" style="--i:2">
+
+            <h3 class="menu__group-label eyebrow">
+              Refreshers & Desserts
+            </h3>
+
+            <ul class="menu__list">
+
+              <li class="menu__row">
+                <span class="menu__item">Chocolate Shake</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳200</span>
+              </li>
+
+              <li class="menu__row">
+                <span class="menu__item">Vanila Shake</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳200</span>
+              </li>
+
+              <li class="menu__row">
+                <span class="menu__item">Strawberry Shake</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳200</span>
+              </li>
+
+              <li class="menu__row">
+                <span class="menu__item">Oreo Shake</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳240</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">peanut Butter Shake</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳250</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Nutella Shake</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳250</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Virgin Mojito</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳180</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Occean Blue</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳220</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Green Apple</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳220</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Brownie</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳120</span>
+              </li>
+              <li class="menu__row">
+                <span class="menu__item">Brownie With Ice Cream</span>
+                <span class="menu__leader"></span>
+                <span class="menu__price price">৳180</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="menu__note caption reveal">
+          Our menu changes seasonally. Ask our team for today's chef's recommendations.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================== GALLERY ============================== -->
+    <section class="gallery section" id="gallery" aria-labelledby="gallery-title">
+      <header class="section-head">
+        <p class="eyebrow reveal">INSIDE COFFEE O'CLOCK</p>
+
+        <h2 class="h2 reveal" id="gallery-title">
+          Every Corner Has A Story.
+        </h2>
+
+        <p class="section-subtitle reveal">
+          From handcrafted coffee to cozy interiors and signature dishes.
+        </p>
+      </header>
+
+      <!-- OWNER: replace each .tile__img background with a real photo; alt text already descriptive -->
+      <ul class="gallery__grid">
+        <li class="tile tile--a reveal" style="--i:1">
+          <button class="tile__btn" type="button" data-caption="Espresso pulling under the bar lamp"
+            aria-label="View image: Espresso pulling under the bar lamp">
+            <img src="images\inside-seating .jpeg" alt="Coffee O'Clock Interior" class="tile__img">
+            <span class="tile__tick" aria-hidden="true"></span>
+            <span class="tile__caption">Warm & Cozy Interior</span>
+          </button>
+        </li>
+        <li class="tile tile--b reveal" style="--i:2">
+          <button class="tile__btn" type="button" data-caption="Single-origin beans, resting"
+            aria-label="View image: Single-origin beans, resting">
+            <img src="images\latte.jpeg" alt="Latte Art" class="tile__img">
+            <span class="tile__tick" aria-hidden="true"></span>
+            <span class="tile__caption">Handcrafted Latte Art</span>
+          </button>
+        </li>
+        <li class="tile tile--c reveal" style="--i:3">
+          <button class="tile__btn" type="button" data-caption="Steam rising off a fresh pour"
+            aria-label="View image: Steam rising off a fresh pour">
+            <img src="images\hocus-pocus.jpeg" alt="Coffee Cup" class="tile__img">
+            <span class="tile__tick" aria-hidden="true"></span>
+            <span class="tile__caption">Signature Coffee Graffiti</span>
+          </button>
+        </li>
+        <li class="tile tile--d reveal" style="--i:4">
+          <button class="tile__btn" type="button" data-caption="Latte art, the moment it sets"
+            aria-label="View image: Latte art, the moment it sets">
+            <img src="images/mushroom-pasta.jpeg" alt="Chicken Mushroom Pasta" class="tile__img">
+            <span class="tile__tick" aria-hidden="true"></span>
+            <span class="tile__caption">Customer Favourite</span>
+          </button>
+        </li>
+        <li class="tile tile--e reveal" style="--i:5">
+          <button class="tile__btn" type="button" data-caption="The slow bar at midnight"
+            aria-label="View image: The slow bar at midnight">
+            <img src="images\kk.jpeg" alt="Coffee O'Clock Exterior" class="tile__img">
+            <span class="tile__tick" aria-hidden="true"></span>
+            <span class="tile__caption">Coffee O'Clock, Sylhet</span>
+          </button>
+        </li>
+        <li class="tile tile--f reveal" style="--i:6">
+          <button class="tile__btn" type="button" data-caption="Brushed portafilter, locked and loaded"
+            aria-label="View image: Brushed portafilter, locked and loaded">
+            <img src="images/BC.jpeg" alt="Outdoor Seating" class="tile__img">
+            <span class="tile__tick" aria-hidden="true"></span>
+            <span class="tile__caption">Outdoor Seating</span>
+          </button>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============================== REVIEWS ============================== -->
+    <section class="reviews section" id="reviews" aria-labelledby="reviews-title">
+
+      <header class="section-head reveal">
+        <p class="eyebrow">WHAT OUR GUESTS SAY</p>
+        <h2 class="h2" id="reviews-title">Regulars say it best.</h2>
+        <p class="section-subtitle">
+          Every cup tells a story. Here's what our guests love about
+          <strong>Coffee O'Clock.</strong>
+        </p>
+      </header>
+
+      <div class="reviews__slider reveal">
+
+        <!-- Decorative Quote -->
+        <span class="reviews__mark" aria-hidden="true">❝</span>
+
+        <!-- ================= Review 1 ================= -->
+        <article class="review-card is-active" data-review>
+
+          <div class="review__rating" aria-label="5 star rating">
+            ★★★★★
+          </div>
+
+          <blockquote class="review__quote">
+            Probably the best flat white I've had in Sylhet. The coffee is
+            consistently excellent, the atmosphere is peaceful, and it's
+            truly a hidden gem in Zindabazar.
+          </blockquote>
+
+          <footer class="review__author">
+
+            <h3>Arif Hasan</h3>
+
+            <p>Friday Regular</p>
+
+          </footer>
+
+        </article>
+
+        <!-- ================= Review 2 ================= -->
+        <article class="review-card" data-review>
+
+          <div class="review__rating" aria-label="5 star rating">
+            ★★★★★
+          </div>
+
+          <blockquote class="review__quote">
+            Came for coffee and stayed for the pasta. Everything tasted
+            fresh, the portions were generous, and the staff made us feel
+            genuinely welcome.
+          </blockquote>
+
+          <footer class="review__author">
+
+            <h3>Nafisa Rahman</h3>
+
+            <p>Women's Medical College Hospital</p>
+
+          </footer>
+
+        </article>
+
+        <!-- ================= Review 3 ================= -->
+        <article class="review-card" data-review>
+
+          <div class="review__rating" aria-label="5 star rating">
+            ★★★★★
+          </div>
+
+          <blockquote class="review__quote">
+            My favorite place to meet friends after work. Cozy seating,
+            relaxing music, delicious coffee, and one of the best Honey
+            Garlic Chicken platters in town.
+          </blockquote>
+
+          <footer class="review__author">
+
+            <h3>Sami Ahmed</h3>
+
+            <p>Leading University</p>
+
+          </footer>
+
+        </article>
+
+        <!-- Navigation -->
+        <div class="reviews__navigation">
+
+          <button class="reviews__arrow" data-rev-prev aria-label="Previous Review">
+
+            ←
+
+          </button>
+
+          <div class="reviews__dots" role="tablist" aria-label="Customer Reviews">
+
+            <button class="reviews__dot is-active" data-dot="0" aria-label="Review 1"></button>
+
+            <button class="reviews__dot" data-dot="1" aria-label="Review 2"></button>
+
+            <button class="reviews__dot" data-dot="2" aria-label="Review 3"></button>
+
+          </div>
+
+          <button class="reviews__arrow" data-rev-next aria-label="Next Review">
+
+            →
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============================== LOCATION ============================== -->
+    <section class="location section" id="location" aria-labelledby="location-title">
+
+      <div class="location__header reveal">
+        <p class="eyebrow">VISIT US</p>
+
+        <h2 class="h2" id="location-title">
+          Visit Coffee O'Clock
+        </h2>
+
+        <p class="lead">
+          Freshly brewed coffee, handcrafted meals, and a warm atmosphere await you in the heart of Sylhet.
+        </p>
+      </div>
+
+      <div class="location__grid">
+
+        <!-- LEFT -->
+        <div class="location__map reveal">
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d452.37755350433247!2d91.86957009136677!3d24.897284816937585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3750550070f324ff%3A0x9f71f009d7ed0bba!2sCoffee%20O&#39;clock!5e0!3m2!1sen!2sbd!4v1783497508928!5m2!1sen!2sbd"
+            loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin">
+          </iframe>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="location__info reveal">
+
+          <address class="location__address">
+
+            <strong>Coffee O'Clock</strong><br>
+
+            40, Tantipara<br>
+
+            Aided School Road<br>
+
+            Zindabazar, Sylhet 3100
+
+            <br><br>
+
+            <a class="link-underline" href="tel:+8801799860990">
+              +880 1799-860990
+            </a>
+
+          </address>
+
+          <table class="hours">
+
+            <tbody>
+
+              <tr>
+                <th>Saturday – Thursday</th>
+                <td>1:00 PM – 11:00 PM</td>
+              </tr>
+
+              <tr>
+                <th>Friday</th>
+                <td>3:00 PM – 11:00 PM</td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+          <div class="location__features">
+
+            <span>☕ Fresh Coffee</span>
+
+            <span>📶 Free Wi-Fi</span>
+
+            <span>🍔 Great Food</span>
+
+            <span>🚗 Easy Parking</span>
+
+          </div>
+
+          <a class="btn btn--ghost" href="https://maps.app.goo.gl/CH1LKbog1hr35E3c9" target="_blank" rel="noopener">
+
+            Open in Google Maps
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============================== CONTACT ============================== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+
+      <div class="contact__inner">
+
+        <p class="eyebrow reveal">
+          RESERVATION
+        </p>
+
+        <h2 class="h2 reveal" id="contact-title">
+          Reserve Your Coffee Experience
+        </h2>
+
+        <p class="lead reveal">
+          Whether it's a casual coffee, a family gathering, or a special celebration,
+          reserve your table in advance and let us take care of the rest.
+        </p>
+
+        <div class="contact__content">
+
+          <!-- ================= Reservation Form ================= -->
+          <form class="contact__form reveal" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+            <!-- Web3Forms -->
+            <input type="hidden" name="access_key" value="39e88739-820a-499f-b0fb-ba7f3503364c">
+
+            <input type="hidden" name="subject" value="New Table Reservation - Coffee O'Clock">
+
+            <input type="hidden" name="redirect" value="https://fazlayrabby-sketch.github.io/coffeeoclock/">
+
+            <!-- Spam Protection -->
+            <input type="checkbox" name="botcheck" style="display:none;">
+
+            <!-- Name -->
+            <div class="field">
+              <input class="field__input" type="text" id="f-name" name="Name" placeholder=" " autocomplete="name"
+                aria-describedby="err-name" required>
+
+              <label class="field__label" for="f-name">
+                Your Name
+              </label>
+
+              <p class="field__error" id="err-name" role="alert"></p>
+            </div>
+
+            <!-- Phone -->
+            <div class="field">
+              <input class="field__input" type="tel" id="f-phone" name="Phone Number" placeholder=" " required>
+
+              <label class="field__label" for="f-phone">
+                Phone Number
+              </label>
+            </div>
+
+            <!-- Email -->
+            <div class="field">
+              <input class="field__input" type="email" id="f-email" name="Email" placeholder=" " autocomplete="email"
+                aria-describedby="err-email" required>
+
+              <label class="field__label" for="f-email">
+                Email
+              </label>
+
+              <p class="field__error" id="err-email" role="alert"></p>
+            </div>
+
+            <!-- Guests -->
+            <div class="field">
+              <input class="field__input" type="number" id="f-guests" name="Number of Guests" min="1" max="20"
+                placeholder=" " required>
+
+              <label class="field__label" for="f-guests">
+                Number of Guests
+              </label>
+            </div>
+
+            <!-- Reservation Date -->
+            <div class="field">
+              <label for="f-date">
+                Reservation Date
+              </label>
+
+              <input class="field__input" type="date" id="f-date" name="Reservation Date" required>
+            </div>
+
+            <!-- Reservation Time -->
+            <div class="field">
+              <label for="f-time">
+                Reservation Time
+              </label>
+
+              <input class="field__input" type="time" id="f-time" name="Reservation Time" required>
+            </div>
+
+            <!-- Special Requests -->
+            <div class="field field--full">
+
+              <textarea class="field__input field__input--area" id="f-message" name="Special Requests" rows="4"
+                placeholder=" "></textarea>
+
+              <label class="field__label" for="f-message">
+                Special Requests
+              </label>
+
+            </div>
+
+            <button class="btn btn--fill contact__submit" type="submit">
+              Book Now
+            </button>
+
+          </form>
+
+          <!-- ================= Contact Card ================= -->
+
+          <aside class="contact__card reveal">
+
+            <h3>Need Assistance?</h3>
+
+            <div class="contact__info">
+
+              <p>
+                <strong>📍 Address</strong><br>
+                40 Tantipara, Aided School Road,<br>
+                Zindabazar, Sylhet
+              </p>
+
+              <p>
+                <strong>☎ Phone</strong><br>
+                +880 1799-860990
+              </p>
+
+              <p>
+                <strong>✉ Email</strong><br>
+                coffee.oclocksyl@gmail.com
+              </p>
+
+              <p>
+                <strong>🕒 Opening Hours</strong><br>
+                Saturday–Thursday:<br>
+                1:00 PM – 11:00 PM<br><br>
+
+                Friday:<br>
+                3:00 PM – 11:00 PM
+              </p>
+
+            </div>
+
+          </aside>
+
+        </div>
+
+        <!-- Success Message -->
+
+        <div class="contact__success" id="contact-success" role="status" aria-live="polite" hidden>
+
+          <p class="contact__success-text">
+
+            🎉 Thank you for your reservation!
+
+            <br><br>
+
+            We've received your booking request successfully.
+
+            Our team will contact you shortly to confirm your reservation.
+
+            <br><br>
+
+            We look forward to welcoming you to
+            <strong>Coffee O'Clock ☕</strong>
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ============================== FOOTER ============================== -->
+    <footer class="footer" id="footer">
+
+      <div class="footer__inner">
+
+        <div class="footer__top">
+
+          <div class="footer__brand">
+
+            <a class="wordmark footer__wordmark" href="#hero">
+              COFFEE O<span class="wordmark__dot"></span>CLOCK
+            </a>
+
+            <p class="footer__tagline">
+              Brewing moments, one cup at a time.
+            </p>
+
+            <p>Saturday – Thursday</p>
+            <p>1:00 PM – 11:00 PM</p>
+
+            <br>
+
+            <p>Friday</p>
+            <p>3:00 PM – 11:00 PM</p>
+
+          </div>
+
+          <div class="footer__links">
+
+            <div class="footer__col">
+
+              <h3>Visit Us</h3>
+
+              <p>
+                40, Tantipara<br>
+                Aided School Road<br>
+                Zindabazar, Sylhet 3100
+              </p>
+
+            </div>
+
+            <div class="footer__col">
+
+              <h3>Contact</h3>
+
+              <p>
+                📞 +880 1799-860990
+              </p>
+
+              <p>
+                ✉ coffee.oclocksyl@gmail.com
+              </p>
+
+              <a class="btn btn--ghost footer__mapbtn" href="https://maps.app.goo.gl/CH1LKbog1hr35E3c9" target="_blank">
+
+                Google Maps
+
+              </a>
+
+            </div>
+
+            <div class="footer__col">
+
+              <h3>Follow Us</h3>
+
+              <a href="https://www.facebook.com/coffeeoclockbd" target="_blank" rel="noopener">
+                Facebook
+              </a>
+
+              <a href="https://www.instagram.com/coffeeoclockbd/" target="_blank" rel="noopener">
+                Instagram
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="footer__bottom">
+
+          <p>© <span id="year"></span> Coffee O'Clock. All Rights Reserved.</p>
+
+          <p>
+            Designed & Developed by
+            <strong>Fazlay Rabby, </strong>
+            <strong>Co-Owner</strong>
+          </p>
+
+        </div>
+
+      </div>
+
+    </footer>
+    <!-- ============================== LIGHTBOX ============================== -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image viewer" hidden>
+      <button class="lightbox__close" type="button" data-lb-close aria-label="Close viewer">&times;</button>
+      <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-prev
+        aria-label="Previous image">&#8592;</button>
+      <figure class="lightbox__figure">
+        <img class="lightbox__img" id="lightbox-img" src="" alt="">
+        <figcaption class="lightbox__caption" id="lightbox-caption"></figcaption>
+      </figure>
+      <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next
+        aria-label="Next image">&#8594;</button>
+    </div>
+
+    <script defer src="script.js"></script>
+</body>
+
+</html>
